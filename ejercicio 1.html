@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio bootstrap</title>
+</head>
+
+<body style="background-color: rgb(51, 95, 95);">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Electricos Unidos</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portafolio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Servicios
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Instalación Eléctrica</a></li>
+                                    <li><a class="dropdown-item" href="#">Reparación de daños</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Servicios a la medida</a></li>
+                                </ul>
+                            </li>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img1...jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="row">
+            <div class="accordion" id="accordionExample" data-bs-theme="dark">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Tu Mejor Servicio
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En mi empresa, sabemos que la energía no puede fallar. Por eso, te
+                            ofrecemos nuestro mejor servicio eléctrico, diseñado para brindarte seguridad,
+                            eficiencia y confianza en cada proyecto.
+
+                            ✅ Instalaciones eléctricas profesionales
+                            ✅ Reparaciones rápidas y seguras
+                            ✅ Atención 24/7 para emergencias
+                            ✅ Mantenimiento preventivo y correctivo
+                            ✅ Asesoría personalizada en eficiencia energética
+
+                            Ya sea en tu hogar, negocio o industria, nuestro equipo de técnicos certificados trabaja
+                            con pasión y precisión, usando materiales de primera calidad y cumpliendo todas las
+                            normas de seguridad.
+
+                            🔌 Porque tu tranquilidad es nuestra prioridad.
+                            Confía en los que saben de energía. Confía en nosotros.
+
+                            📞 Contáctanos hoy y descubre por qué cada cliente recomienda nuestro mejor servicio.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Legamos Donde Sea
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En mi empresa, sabemos que la energía no puede fallar. Por eso, te
+                            ofrecemos nuestro mejor servicio eléctrico, diseñado para brindarte seguridad,
+                            eficiencia y confianza en cada proyecto.
+
+                            ✅ Instalaciones eléctricas profesionales
+                            ✅ Reparaciones rápidas y seguras
+                            ✅ Atención 24/7 para emergencias
+                            ✅ Mantenimiento preventivo y correctivo
+                            ✅ Asesoría personalizada en eficiencia energética
+
+                            Ya sea en tu hogar, negocio o industria, nuestro equipo de técnicos certificados trabaja
+                            con pasión y precisión, usando materiales de primera calidad y cumpliendo todas las
+                            normas de seguridad.
+
+                            🔌 Porque tu tranquilidad es nuestra prioridad.
+                            Confía en los que saben de energía. Confía en nosotros.
+
+                            📞 Contáctanos hoy y descubre por qué cada cliente recomienda nuestro mejor servicio.
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Rapido Y Eficaz
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En mi empresa, sabemos que la energía no puede fallar. Por eso, te
+                            ofrecemos nuestro mejor servicio eléctrico, diseñado para brindarte seguridad,
+                            eficiencia y confianza en cada proyecto.
+
+                            ✅ Instalaciones eléctricas profesionales
+                            ✅ Reparaciones rápidas y seguras
+                            ✅ Atención 24/7 para emergencias
+                            ✅ Mantenimiento preventivo y correctivo
+                            ✅ Asesoría personalizada en eficiencia energética
+
+                            Ya sea en tu hogar, negocio o industria, nuestro equipo de técnicos certificados trabaja
+                            con pasión y precisión, usando materiales de primera calidad y cumpliendo todas las
+                            normas de seguridad.
+
+                            🔌 Porque tu tranquilidad es nuestra prioridad.
+                            Confía en los que saben de energía. Confía en nosotros.
+
+                            📞 Contáctanos hoy y descubre por qué cada cliente recomienda nuestro mejor servicio.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Trabajador1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> 🔧 Danny phantom – Técnico en Energías Renovables
+                            ✔️ Especialista en instalación de paneles solares y sistemas de energía limpia.
+                            ✔️ Diseña soluciones energéticas eficientes para hogares y empresas.
+                            ✔️ Promotor de la transición hacia el uso responsable de la electricidad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Trabajado.estrella.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">🔧 Stitch – Técnico en Mantenimiento Eléctrico
+                            ✔️ Experta en diagnóstico y reparación de fallas eléctricas.
+                            ✔️ Encargada del mantenimiento preventivo y correctivo en sistemas eléctricos.
+                            ✔️ Altamente capacitada en normas de seguridad eléctrica y uso de herramientas
+                            especializadas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="trabajador2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">🔧 Alvin – Técnico Electricista Senior
+                            ✔️ Más de 10 años de experiencia en instalaciones eléctricas residenciales e industriales.
+                            ✔️ Especialista en sistemas trifásicos, tableros eléctricos y protección contra
+                            sobretensiones.
+                            ✔️ Responsable de supervisar y garantizar la correcta ejecución de los proyectos
+                            eléctricos..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
